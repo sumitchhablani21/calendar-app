@@ -5,13 +5,24 @@ It supports month navigation, date-range selection, month-specific hero images, 
 
 ---
 
-## Why This Implementation
+## 🚀 Why This Implementation
 
-- React component architecture: Keeps calendar logic, day rendering, and notes management isolated and easy to maintain.
-- Vite build setup: Fast startup and hot reload for quick development iteration.
-- Tailwind CSS styling: Utility-first styling for a clean, compact UI and consistent responsive behavior.
-- date-fns for date operations: Reliable month/date formatting and navigation without custom date math.
-- localStorage persistence: Notes are stored per month key so user data is preserved across refreshes.
+This project is designed with a focus on performance, scalability, and developer experience:
+
+- **Component-based architecture (React):**  
+  The application is structured into reusable components, ensuring clear separation of concerns between calendar logic, day rendering, and notes management. This makes the codebase easier to maintain and extend.
+
+- **Fast development with Vite:**  
+  Leveraging Vite enables lightning-fast startup times and instant hot module replacement, allowing for a smoother and more efficient development workflow.
+
+- **Modern styling with Tailwind CSS:**  
+  A utility-first approach ensures a clean, consistent, and responsive UI while reducing the need for writing custom CSS.
+
+- **Efficient date handling with date-fns:**  
+  Simplifies complex date operations such as formatting, navigation, and calculations, avoiding error-prone manual implementations.
+
+- **Persistent storage using localStorage:**  
+  Notes are stored using month-specific keys, ensuring that user data persists across sessions without requiring a backend.
 
 ---
 
@@ -26,6 +37,7 @@ It supports month navigation, date-range selection, month-specific hero images, 
 	- Delete individual saved note
 	- Persistent storage in browser localStorage
 
+---
 
 ## Notes
 
@@ -34,7 +46,7 @@ It supports month navigation, date-range selection, month-specific hero images, 
 
 ---
 
-## 📁 Project Structure
+## 📁 Folder Structure
 
 ```bash
 src/
@@ -81,3 +93,4 @@ Feel free to reach out to me for collaboration or questions!
 ---
 
 ## Hosted Application Link
+https://calendar-app-sumit.vercel.app/
