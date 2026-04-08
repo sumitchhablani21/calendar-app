@@ -39,13 +39,6 @@ This project is designed with a focus on performance, scalability, and developer
 
 ---
 
-## Notes
-
-- Notes are stored in browser localStorage, so they stay on the same browser/profile.
-- Clearing browser storage will remove saved notes.
-
----
-
 ## 📁 Folder Structure
 
 ```bash
@@ -93,4 +86,4 @@ Feel free to reach out to me for collaboration or questions!
 ---
 
 ## Hosted Application Link
-https://calendar-app-sumit.vercel.app/
+https://calendar-app-sumit.vercel.app
